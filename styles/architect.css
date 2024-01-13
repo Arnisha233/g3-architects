@@ -177,7 +177,15 @@ main{
 }
 .sponsors-img-container img{
     width: 165px;
-} 
+}
+
+/* footer styles */
+.foot-section{
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 39px 50px;
+    text-align: center;
+}
 
 
 
