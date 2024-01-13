@@ -4,6 +4,8 @@
 /* shared styles */
 
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -21,6 +23,11 @@
     font-weight: 600;
     cursor: pointer;
 }
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
 
 /* header styles */
 header{
@@ -32,12 +39,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    font-size: 45px;
-    font-weight: 700;
-    color: #131313;
-}
-
 nav > ul{
     display: flex;
 }
